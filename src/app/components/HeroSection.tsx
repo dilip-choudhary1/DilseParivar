@@ -1,6 +1,6 @@
 import React from 'react';
 import { MapPin, UtensilsCrossed, ShieldCheck, Users } from 'lucide-react';
-import restaurantFront from 'figma:asset/3fcdacab239fb4b2bb0d0aab40e1bdee81382494.png';
+import restaurantFront from 'asset/3fcdacab239fb4b2bb0d0aab40e1bdee81382494.png';
 
 export const HeroSection: React.FC = () => {
   const scrollToSection = (sectionId: string) => {
