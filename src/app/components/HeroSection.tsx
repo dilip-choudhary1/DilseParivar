@@ -16,7 +16,7 @@ export const HeroSection: React.FC = () => {
       <div className="relative h-[600px] md:h-[700px] overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-transparent z-10" />
         <img
-          src='../../src/assets/image.png'
+          src='/front.jpg'
           // src={restaurantFront}
           alt="Dil Se Parivar Restaurant Front"
           className="w-full h-full object-cover"
