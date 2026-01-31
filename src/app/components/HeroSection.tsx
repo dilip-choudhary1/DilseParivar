@@ -1,6 +1,6 @@
 import React from 'react';
 import { MapPin, UtensilsCrossed, ShieldCheck, Users } from 'lucide-react';
-// import restaurantFront from 'asset/image.png';
+// import restaurantFront from '../../src/assets/image.png';
 
 export const HeroSection: React.FC = () => {
   const scrollToSection = (sectionId: string) => {
@@ -16,7 +16,8 @@ export const HeroSection: React.FC = () => {
       <div className="relative h-[600px] md:h-[700px] overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-transparent z-10" />
         <img
-          src='asset/image.png'
+          src='../../src/assets/image.png'
+          // src={restaurantFront}
           alt="Dil Se Parivar Restaurant Front"
           className="w-full h-full object-cover"
         />
